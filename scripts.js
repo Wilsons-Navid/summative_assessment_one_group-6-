@@ -12,7 +12,7 @@ document
 
     // Email Validation: Valid email format
     const email = document.getElementById("email").value;
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (!/^[^\s@[A-Z]]+@[^\s@[A-Z]]+\.[^\s@[A-Z]]+$/.test(email)) {
       errorMessages.push("Invalid email format - abc@gmail.com");
     }
 
